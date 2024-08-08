@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="form">
+    <h1>Quiz Code Along</h1>
+    <!-- Text Input Question -->
+    <p>1. What is your name?</p>
+    <input type="text" id="text-question" name="q1">
+    <br>
+    <p id="result"></p>
+
+    <!-- Radio Input Question 1 -->
+    <p>2. What is the capital of France?</p>
+    <input type="radio" id="paris" name="q2" value="paris" class="correct radio">
+    <label for="paris">Paris</label><br>
+    <input type="radio" id="london" name="q2" value="london" class="wrong radio">
+    <label for="london">London</label><br>
+    <input type="radio" id="rome" name="q2" value="rome" class="wrong radio">
+    <label for="rome">Rome</label><br>
+    <br>
+
+    <!-- Radio Input Question 2 -->
+    <p>3. Which is the largest planet in our solar system?</p>
+    <input type="radio" id="jupiter" name="q3" value="jupiter" class="correct radio">
+    <label for="jupiter">Jupiter</label><br>
+    <input type="radio" id="mars" name="q3" value="mars" class="wrong radio">
+    <label for="mars">Mars</label><br>
+    <input type="radio" id="earth" name="q3" value="earth" class="wrong radio">
+    <label for="earth">Earth</label><br>
+    <br>
+
+    <!-- Submit Button -->
+    <button type="submit">Submit</button>
+    <p id="result"></p>
+  </div>
+  <!-- Link script.js -->
+<script src = "script.js"></script>
+</body>
+
+</html>
